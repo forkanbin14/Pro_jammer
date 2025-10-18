@@ -1,9 +1,9 @@
 <div align="center">
   <img src="https://avatars.githubusercontent.com/u/176677387" width="150" height="auto" />
-  <h1> 🌟 nRF24 Jammer 🌟 </h1>
+  <h1> [Powerful Pro Jammer]</h1>
 </div>
 
-Welcome to the **nRF24 Jammer** repository! 🎉 Dive into the world of RF interference with this unique project based on the ESP32 and NRF24 technology.
+Welcome to the *Pro Jammer* repository! 🎉 Dive into the world of RF interference with this unique project based on the ESP32 and Powdered by Afferent Tech.
 
 ## 📚 Table of Contents
 - [🎯 Possible Additions](#-possible-additions)
@@ -24,14 +24,14 @@ Welcome to the **nRF24 Jammer** repository! 🎉 Dive into the world of RF inter
 - **Deauthentication attack**
 - **BLE spam**
 - **Beacon spam**
-- **nRF24 mousejack**
+- **Pro mousejack**
 
 ***`If you have the capability to assist with these features, please feel free to create pull requests!`***
 
 -----
 
 ## 🚀 What Can You Do with This?
-This amazing jammer is built on the **ESP32** architecture integrated with **two NRF24** modules. With its extraordinary capabilities, you can effectively disrupt signals across different technologies including:
+This amazing jammer is built on the **ESP32** architecture integrated with **two Pro** modules. With its extraordinary capabilities, you can effectively disrupt signals across different technologies including:
 - **Bluetooth** 🔊
 - **BLE** 📱
 - **Drones** 🚁
@@ -78,9 +78,9 @@ To bring this project to life, you will need the following components:
 
 **Standard version (outdated)**
 
-<ul><li>Number of modules: Used 2 nRF24 modules, which provided sufficient jamming power</li></ul>
+<ul><li>Number of modules: Used 2 Pro modules, which provided sufficient jamming power</li></ul>
 
-<ul><li>Critical Flaw: Due to a pin conflict between the nRF24 modules and the display, the user interface became unresponsive after jamming was started. This made it impossible to stop the device via the display, requiring a full power cycle to shut it down</li></ul>
+<ul><li>Critical Flaw: Due to a pin conflict between the Pro modules and the display, the user interface became unresponsive after jamming was started. This made it impossible to stop the device via the display, requiring a full power cycle to shut it down</li></ul>
 
 <ul><li>Status: Starting from version V2.6.0, this version is no longer supported or updated. It is highly recommended to switch to the Flexible version</li></ul>
 
@@ -91,7 +91,7 @@ To bring this project to life, you will need the following components:
 
 <div style="margin-left: 20px;">
 
-### Connecting First nRF24 module (**optional**)
+### Connecting First Pro module (**optional**)
 | **Pin Name** | **ESP32 GPIO** | **Connection**       |
 |--------------|----------------|----------------------|
 | VCC          | 3.3V          | (+) capacitor        |
@@ -103,7 +103,7 @@ To bring this project to life, you will need the following components:
 | MISO         | GPIO 12       |                      |
 | IRQ          |                |                      |
 
-### Connecting Second nRF24 module (**optional**)
+### Connecting Second Pro module (**optional**)
 | **Pin Name** | **ESP32 GPIO** | **Connection**       |
 |--------------|----------------|----------------------|
 | VCC          | 3.3V          | (+) capacitor        |
@@ -127,7 +127,7 @@ To bring this project to life, you will need the following components:
 | MISO         | GPIO 12       |                      |
 | IRQ          |                |                      |
 
-### Connecting Fourth nRF24 module (**optional**)
+### Connecting Fourth Pro module (**optional**)
 | **Pin Name** | **ESP32 GPIO** | **Connection**       |
 |--------------|----------------|----------------------|
 | VCC          | 3.3V          | (+) capacitor        |
@@ -139,7 +139,7 @@ To bring this project to life, you will need the following components:
 | MISO         | GPIO 12       |                      |
 | IRQ          |                |                      |
 
-### Connecting Fifth nRF24 module (**optional**)
+### Connecting Fifth Pro module (**optional**)
 | **Pin Name** | **ESP32 GPIO** | **Connection**       |
 |--------------|----------------|----------------------|
 | VCC          | 3.3V          | (+) capacitor        |
@@ -310,9 +310,9 @@ Follow these steps to flash the firmware:
 
 | **Address** | **File Name**                             |
 |-------------|-------------------------------------------|
-| 0x1000      | nRF24_jammer_bootloader.bin              |
-| 0x8000      | nRF24_jammer_partitions.bin              |
-| 0x10000     | nRF24_jammer.bin                          |
+| 0x1000      | pro_jammer_bootloader.bin              |
+| 0x8000      | pro_jammer_partitions.bin              |
+| 0x10000     | pro_jammer.bin                          |
 
 4. Click "Flash," and once the installation is complete, **restart your board** and enjoy using your jammer!
 
@@ -330,7 +330,7 @@ Follow these steps to flash the firmware:
 1. Download the firmware from the **[releases](https://github.com/W0rthlessS0ul/nRF24_jammer/releases)** section that corresponds to your display.
 2. Turn on your device and open a web browser
 3. Navigate to the web interface at **192.168.4.1**
-4. Click on "**OTA**" and select the file "**nRF24_jammer.bin**" (`⚠️️ make sure not to choose the bootloader or partitions files`).
+4. Click on "**OTA**" and select the file "**pro_jammer.bin**" (`⚠️️ make sure not to choose the bootloader or partitions files`).
 
 </div>
 </details>
